@@ -1,0 +1,15 @@
+/*Custom webpage styles*/
+.br {
+	 border: 10px solid ;
+	 border-width: 0 0 10px 0;
+	 border-image: url(../images/hr-menu-line.png) 0 0 10 0 repeat;
+}
+body {
+	margin-top: 90px;
+}
+
+.cb-top {
+	min-height: 400px;
+	background-color: #c4c4c4;
+	margin: 0;
+}
