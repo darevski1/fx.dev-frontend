@@ -5,11 +5,54 @@
 	 border-image: url(../images/hr-menu-line.png) 0 0 10 0 repeat;
 }
 body {
-	margin-top: 90px;
+	margin-top: 60px;
 }
 
-.cb-top {
+.cbs-top {
 	min-height: 400px;
 	background-color: #c4c4c4;
 	margin: 0;
+    background: url("../images/das.jpg");
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
+.cb-top {
+    min-height: 400px;
+    background-color: #c4c4c4;
+    margin: 0;
+    position: relative;
+    background-size: cover;
+}
+.imgkk {
+	bottom: 0;
+	left:0;
+
+}
+
+.bg {
+	background-image: url('../images/hr-menu-line.png');
+	height: 5px;
+}
+.bootsy {
+	border-width: 0 0 10px 0;
+	border-image: url('../images/hr-menu-line.png') 25 30 10 20 repeat stretch;
+}
+.booty {
+	background: url('../images/bg-image.png') ;
+}
+
+.example-three {
+	border-style: double;
+	border-width: 5px  5px;
+	border-image: url('../images/hr-menu-line.png') 25 30 10 20 stretch;
+
+}
+.nav-tabs > li, .nav-pills > li {
+	float:none;
+	display:inline-block;
+	*display:inline; /* ie7 fix */
+	zoom:1; /* hasLayout ie7 trigger */
+}
+.bottomImage { position: absolute; bottom: 0; }
