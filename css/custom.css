@@ -4,18 +4,26 @@
 	 border-width: 0 0 10px 0;
 	 border-image: url(../images/hr-menu-line.png) 0 0 10 0 repeat;
 }
+.brs {
+    border: 1px solid;
+}
 body {
 	margin-top: 60px;
 }
-
+.wraper {
+    width: 100%;
+    background: red;
+    padding-bottom: 10px;
+}
 .cbs-top {
-	min-height: 400px;
+	min-height: 600px;
 	background-color: #c4c4c4;
 	margin: 0;
     background: url("../images/das.jpg");
     position: relative;
     background-attachment: fixed;
     background-size: cover;
+
 }
 
 .cb-top {
@@ -28,9 +36,7 @@ body {
 .imgkk {
 	bottom: 0;
 	left:0;
-
 }
-
 .bg {
 	background-image: url('../images/hr-menu-line.png');
 	height: 5px;
@@ -42,7 +48,6 @@ body {
 .booty {
 	background: url('../images/bg-image.png') ;
 }
-
 .example-three {
 	border-style: double;
 	border-width: 5px  5px;
@@ -56,3 +61,86 @@ body {
 	zoom:1; /* hasLayout ie7 trigger */
 }
 .bottomImage { position: absolute; bottom: 0; }
+
+
+/* Baklava*/
+.jumbotron-link::before {
+    background-image: url('../images/buttom.png');
+    background-repeat: no-repeat;
+	bottom: 0;
+	content: "";
+	display: inline-block;
+	left: 0;
+	border-radius: 20px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 0;
+}
+
+.jumbotron-link {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	font-family: "Merriweather",serif;
+	font-size: 14px;
+	font-weight: 700;
+	height: 100px;
+	justify-content: flex-end;
+	padding-bottom: 12px;
+	position: relative;
+	transition: all 250ms ease 0s;
+	width: 100px;
+}
+.jumbotron-link {
+	font-size: 18px;
+	font-weight: 700;
+	height: 110px;
+	padding-bottom: 0;
+	width: 110px;
+}
+.jumbotron-link {
+	font-size: 18px;
+}
+.but-link {
+    top: -46px;
+    position: relative;
+}
+.bgimages img {
+    position: absolute; top: 0;
+}
+
+/*New style */
+
+
+.intro-header {
+    min-height: 500px;
+    background-image: url("../images/back1.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    bottom: 0;
+    background-size: contain;
+    width: 100%;
+}
+.fx_top {
+    min-height: 500px;
+    background: #122b40;
+}
+.fxc_top {
+     min-height: 500px;
+     background: #2e6da4;
+ }
+
+.sc-c2 {
+    background-attachment: fixed;
+    background-color: #ebebeb;
+    background-image: url("../images/das.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 468px;
+}
+.block-image {
+    border: 1px solid;
+    top: -46px;
+}
