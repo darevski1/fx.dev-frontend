@@ -60,6 +60,7 @@ body {
 	*display:inline; /* ie7 fix */
 	zoom:1; /* hasLayout ie7 trigger */
 }
+<<<<<<< HEAD
 .bottomImage { position: absolute; bottom: 0; }
 
 
@@ -144,3 +145,10 @@ body {
     border: 1px solid;
     top: -46px;
 }
+=======
+.bottomImage { 
+	position: absolute; 
+	bottom: 0; 
+}
+ 
+>>>>>>> 08afd26a021a202b978baacb069b5d4bd55e0716
