@@ -1,3 +1,9 @@
+/* Font */
+@font-face{
+    font-family: "Calibri";
+    src: url('../fonts/BOOKOSB.TTF'),
+    url('../fonts/Calibri Bold.ttf'); /* IE */
+}
 /*Custom webpage styles*/
 .br {
 	 border: 10px solid ;
@@ -9,6 +15,7 @@
 }
 body {
 	margin-top: 60px;
+    background: #c0c0c0;
 }
 .wraper {
     width: 100%;
@@ -60,7 +67,7 @@ body {
 	*display:inline; /* ie7 fix */
 	zoom:1; /* hasLayout ie7 trigger */
 }
-<<<<<<< HEAD
+
 .bottomImage { position: absolute; bottom: 0; }
 
 
@@ -110,19 +117,7 @@ body {
 .bgimages img {
     position: absolute; top: 0;
 }
-
 /*New style */
-
-
-.intro-header {
-    min-height: 500px;
-    background-image: url("../images/back1.png");
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    bottom: 0;
-    background-size: contain;
-    width: 100%;
-}
 .fx_top {
     min-height: 500px;
     background: #122b40;
@@ -131,24 +126,59 @@ body {
      min-height: 500px;
      background: #2e6da4;
  }
-
 .sc-c2 {
     background-attachment: fixed;
     background-color: #ebebeb;
-    background-image: url("../images/das.jpg");
+    background-image: url("../images/das.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 468px;
 }
+.content-section-b {
+    background-image: url("../images/back2.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 891px;
+}
+.pad_block{
+    padding-top: 50px;
+}
+.content-section-c {
+    background-image: url("../images/back3.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 995px;
+}
+.vbg {
+    top: 0;
+}
+.intro-header {
+    min-height: 500px;
+    background-image: url("../images/back1.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .block-image {
-    border: 1px solid;
     top: -46px;
+
 }
-=======
-.bottomImage { 
-	position: absolute; 
-	bottom: 0; 
+.bottomImage {
+	position: absolute;
+	bottom: 0;
 }
- 
->>>>>>> 08afd26a021a202b978baacb069b5d4bd55e0716
+
+/*Intro text*/
+.txt_intro {
+    font-size: 9.1vh;
+    font-family: "Calibri";
+}
+.txt_blue {
+    color: #024e79;
+}
+.txt_white {
+    color:#ffffff;
+}
