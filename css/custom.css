@@ -52,9 +52,6 @@ body {
 	border-width: 0 0 10px 0;
 	border-image: url('../images/hr-menu-line.png') 25 30 10 20 repeat stretch;
 }
-.booty {
-	background: url('../images/bg-image.png') ;
-}
 .example-three {
 	border-style: double;
 	border-width: 5px  5px;
@@ -139,8 +136,9 @@ body {
     background-image: url("../images/back2.png");
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     min-height: 891px;
+    width: 100%;
 }
 .pad_block{
     padding-top: 50px;
@@ -149,7 +147,7 @@ body {
     background-image: url("../images/back3.png");
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     min-height: 995px;
 }
 .vbg {
@@ -181,4 +179,20 @@ body {
 }
 .txt_white {
     color:#ffffff;
+}
+.block-radius  {
+    min-height: 200px;
+    border-radius: 20px 20px 0px 20px;
+    -moz-border-radius: 20px 20px 0px 20px;
+    -webkit-border-radius: 20px 20px 0px 20px;
+    border: 1px solid #000000;
+    padding: 0;
+}
+.top_hed {
+    min-height: 100px;
+    border-radius: 20px 20px 0px 0px;
+    -moz-border-radius: 20px 20px 0px 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    border: 1px solid #000000;
+    width: 100%;
 }
