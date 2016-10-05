@@ -25,8 +25,15 @@ body {
 }
 .wraper {
     width: 100%;
-    background: red;
+    background: url("../images/123.png") no-repeat;
+    background-size: cover;
+    width: 100%;
     padding-bottom: 10px;
+    padding-top: 200px;
+    margin-top: 340px;
+}
+.red {
+    border: 1px solid red;
 }
 .cbs-top {
 	min-height: 600px;
@@ -46,10 +53,7 @@ body {
     position: relative;
     background-size: cover;
 }
-.imgkk {
-	bottom: 0;
-	left:0;
-}
+
 .bg {
 	background-image: url('../images/hr-menu-line.png');
 	height: 5px;
@@ -139,6 +143,14 @@ body {
     min-height: 468px;
 }
 .content-section-b {
+    background-image: url("../images/123_03.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 891px;
+    width: 100%;
+}
+.content-section-2b {
     background-image: url("../images/back2.png");
     background-position: center top;
     background-repeat: no-repeat;
@@ -166,7 +178,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
 }
-.block-image {
+.txt_header {
     top: -46px;
 
 }
@@ -207,10 +219,23 @@ body {
 }
 .bg_img_section {
     background: #444444;
-    background-image: url("../images/IFX97%20-%20shutterstock_77665465%20lr.jpg");
-    min-height: 650px;
+    background-image: url("../images/123_06_02.png");
+    min-height: 803px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.transbg {
+    background: #444444;
+    background-image: url("../images/123_06_012_04.png");
+    min-height: 802px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
 }
 .cbn_bg {
+    background-image: url("../images/123_06_012_05.png");
     background-color: rgba(11, 8, 9, 0.7);
     background: rgba(11, 8, 9, 0.7);
     color: rgba(11, 8, 9, 0.7);
@@ -239,7 +264,7 @@ body {
 .p_style {
     color: #ffffff;
     font-family: calibri;
-    font-size: 2.3vh;
+    font-size: 2.9vh;
 }
 .txt_cs_white {
     color: #ffffff;
@@ -318,4 +343,56 @@ body {
 }
 .see {
    min-height: 500px;
+}
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+.section-top {
+    min-height: 803px;
+}
+/* main-section*/
+.main-section {
+    min-height: 820px;
+}
+.bott_space {
+    margin-bottom: 25px;
+}
+.lead-section {
+    min-height: 903px;
+}
+.section-one {
+    min-height: 803px;
+}
+.section-two {
+    min-height: 803px;
+}
+.section-three {
+    min-height: 803px
+}
+.section-four {
+    min-height: 803px
+}
+.section-five {
+    min-height: 803px
+}
+.section-six {
+    min-height: 803px
+}
+.block-image{
+    margin-top: -45px;
 }
