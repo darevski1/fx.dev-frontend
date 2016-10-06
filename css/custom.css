@@ -179,8 +179,7 @@ body {
     background-size: contain;
 }
 .txt_header {
-    top: -46px;
-
+    color: #9fd5f2;
 }
 .bottomImage {
 	position: absolute;
@@ -264,7 +263,7 @@ body {
 .p_style {
     color: #ffffff;
     font-family: calibri;
-    font-size: 2.9vh;
+    font-size: 2.3vh;
 }
 .txt_cs_white {
     color: #ffffff;
@@ -395,4 +394,28 @@ body {
 }
 .block-image{
     margin-top: -45px;
+}
+.section-seven {
+    min-height: 803px;
+}
+.section-eight {
+    min-height: 803px;
+}
+.next {
+    border: 1px solid #fff;
+    /*position: relative;*/
+    /*transform: rotate(45deg);*/
+    /*transition: all 0.5s ease 0s;*/
+    /*width:410px;*/
+
+}
+.divblock {
+    height: 180px;
+    weight:180px;;
+    background: red;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    margin: 5px;
+    display: block;
 }
