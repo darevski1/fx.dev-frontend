@@ -4032,14 +4032,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 }
 .nav-tabs-style {
-  background: rgba(175,199,213,1);
-  background: -moz-linear-gradient(left, rgba(175,199,213,1) 0%, rgba(69,124,156,1) 51%, rgba(175,199,213,1) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(175,199,213,1)), color-stop(51%, rgba(69,124,156,1)), color-stop(100%, rgba(175,199,213,1)));
-  background: -webkit-linear-gradient(left, rgba(175,199,213,1) 0%, rgba(69,124,156,1) 51%, rgba(175,199,213,1) 100%);
-  background: -o-linear-gradient(left, rgba(175,199,213,1) 0%, rgba(69,124,156,1) 51%, rgba(175,199,213,1) 100%);
-  background: -ms-linear-gradient(left, rgba(175,199,213,1) 0%, rgba(69,124,156,1) 51%, rgba(175,199,213,1) 100%);
-  background: linear-gradient(to right, rgba(175,199,213,1) 0%, rgba(69,124,156,1) 51%, rgba(175,199,213,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afc7d5', endColorstr='#afc7d5', GradientType=1 );
+  background: url("../images/menu.png") no-repeat;
+  
 }
 .nav-tabs > li {
   float: left;

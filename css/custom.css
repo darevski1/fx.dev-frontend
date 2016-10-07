@@ -21,7 +21,7 @@
 }
 body {
 	margin-top: 60px;
-    background: #c0c0c0;
+    background: #444444;
 }
 .wraper {
     width: 100%;
@@ -53,7 +53,9 @@ body {
     position: relative;
     background-size: cover;
 }
-
+.cp_style {
+    color: #ffffff;
+}
 .bg {
 	background-image: url('../images/hr-menu-line.png');
 	height: 5px;
@@ -199,7 +201,7 @@ body {
     color:#ffffff;
 }
 .block-radius  {
-    min-height: 400px;
+    min-height: 410px;
     border-radius: 20px 20px 0px 20px;
     -moz-border-radius: 20px 20px 0px 20px;
     -webkit-border-radius: 20px 20px 0px 20px;
@@ -252,12 +254,24 @@ body {
     width: 100%;
 }
 .txt_header {
-     font-size: 6.1vh;
-     color: #9fd5f2;
+    font-size: 6.1vh;
+    color: #9fd5f2;
     font-family: "booksb";
+}
+
+.txt_header-c {
+    font-size: 4.1vh;
+    color: #9fd5f2;
+    font-family: "booksb";
+
 }
 .txt_header_w {
     font-size: 6.1vh;
+    color: #ffffff;
+    font-family: "booksb";
+}
+.txt_header_ws {
+    font-size: 11.1vh;
     color: #ffffff;
     font-family: "booksb";
 }
@@ -269,8 +283,12 @@ body {
 .txt_cs_white {
     color: #ffffff;
 }
-.bg-img {
+.bg-img img{
     display: inline-block;
+    margin-left: 20px;
+    padding-bottom: 33px;
+    padding-right: 5px;
+
 }
 .bg-txt {
     display: inline-block;
@@ -336,6 +354,11 @@ body {
     font-family: booksb;
     color: #ffffff;
 }
+.bigbold {
+    font-size: 12.1vh;
+    color: #9fd5f2;
+    font-family: "booksb";
+}
 .bg_imgr {
     background: url("../images/br_total.png");
     background-position: center center;
@@ -395,4 +418,18 @@ body {
 }
 .block-image{
     margin-top: -45px;
+}
+.section-seven {
+    min-height: 803px
+}
+.pb_blue {
+    color: #6B838F;
+    font-weight: bold;
+}
+.btnimg{
+    display: inline-block;
+    margin: 5px;
+}
+.spacebotom {
+    margin-bottom: 90px;
 }
