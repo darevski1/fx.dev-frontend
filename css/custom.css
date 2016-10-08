@@ -24,13 +24,13 @@ body {
     background: #444444;
 }
 .wraper {
-    width: 100%;
-    background: url("../images/123.png") no-repeat;
-    background-size: cover;
-    width: 100%;
-    padding-bottom: 10px;
-    padding-top: 200px;
-    margin-top: 340px;
+    /*width: 100%;*/
+    /*background: url("../images/123.png") no-repeat;*/
+    /*background-size: cover;*/
+    /*width: 100%;*/
+    /*padding-bottom: 10px;*/
+    /*padding-top: 200px;*/
+    /*margin-top: 340px;*/
 }
 .red {
     border: 1px solid red;
@@ -385,17 +385,39 @@ body {
 }
 
 .section-top {
-    min-height: 803px;
+    min-height: 1021px;
+    background: url("../images/123_02.png");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%
 }
 /* main-section*/
 .main-section {
-    min-height: 820px;
+    min-height: 795px;
+    background: url("../images/123_03.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
 }
 .bott_space {
     margin-bottom: 25px;
 }
+.clear{
+    clear:both;
+}
 .lead-section {
-    min-height: 903px;
+    min-height: 803px;
+    background: url("../images/123_04.png");
+    background-size:cover;
+    background-position: center bottom ;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    background-attachment:local;
 }
 .section-one {
     min-height: 803px;
@@ -418,8 +440,10 @@ body {
 .block-image{
     margin-top: -45px;
 }
+.content-section-a {
+    position: absolute;
+}
 .section-seven {
-<<<<<<< HEAD
     min-height: 803px
 }
 .pb_blue {
@@ -432,7 +456,6 @@ body {
 }
 .spacebotom {
     margin-bottom: 90px;
-=======
     min-height: 803px;
 }
 .section-eight {
@@ -455,5 +478,4 @@ body {
     -webkit-border-radius: 20px 20px 20px 20px;
     margin: 5px;
     display: block;
->>>>>>> 9a9a5a6aafe07800b05ee3a247a0fcc18626b54c
 }
