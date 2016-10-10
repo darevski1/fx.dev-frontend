@@ -405,6 +405,7 @@ body {
 }
 .bott_space {
     margin-bottom: 25px;
+
 }
 .clear{
     clear:both;
@@ -412,12 +413,12 @@ body {
 .lead-section {
     min-height: 803px;
     background: url("../images/123_04.png");
-    background-size:cover;
-    background-position: center bottom ;
+    background-size: cover;
+    background-position: center top;
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
-    background-attachment:local;
+
 }
 .section-one {
     min-height: 803px;
@@ -437,8 +438,11 @@ body {
 .section-six {
     min-height: 803px
 }
-.block-image{
+.block-image img{
     margin-top: -45px;
+    width: 100%;
+    left: 50%;
+
 }
 .content-section-a {
     position: absolute;
@@ -449,6 +453,7 @@ body {
 .pb_blue {
     color: #6B838F;
     font-weight: bold;
+
 }
 .btnimg{
     display: inline-block;
@@ -460,6 +465,10 @@ body {
 }
 .section-eight {
     min-height: 803px;
+}
+.section-ten {
+    height: 900px;
+    background: #024e79;
 }
 .next {
     border: 1px solid #fff;
@@ -479,3 +488,24 @@ body {
     margin: 5px;
     display: block;
 }
+
+.test {
+    width: 200px;
+    height: 200px;
+    background: red;
+
+
+    transform: rotate(68deg) ;
+    -webkit-transform: rotate(68deg) ;
+    -moz-transform: rotate(68deg) ;
+    -o-transform: rotate(68deg) ;
+    -ms-transform: rotate(68deg) ;
+}
+ .txt-style {
+     -webkit-text-stroke: 1.0px #5890b7;
+     -webkit-text-fill-color: #FFFFFF;
+     font-family: "booksb";
+ }
+ .txt-style-2 {
+     color: #9FD5F2;
+ }
