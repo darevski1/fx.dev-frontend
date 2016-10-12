@@ -66,9 +66,20 @@ body {
 }
 .example-three {
 	border-style: double;
-	border-width: 5px  5px;
 	border-image: url('../images/hr-menu-line.png') 25 30 10 20 stretch;
-
+}
+.nav-tabs-style {
+    background: rgba(73,156,234,1);
+    background: -moz-linear-gradient(left, rgba(73,156,234,1) 0%, rgba(27,60,150,0.66) 49%, rgba(73,156,234,0.31) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,156,234,1)), color-stop(49%, rgba(27,60,150,0.66)), color-stop(100%, rgba(73,156,234,0.31)));
+    background: -webkit-linear-gradient(left, rgba(73,156,234,1) 0%, rgba(27,60,150,0.66) 49%, rgba(73,156,234,0.31) 100%);
+    background: -o-linear-gradient(left, rgba(73,156,234,1) 0%, rgba(27,60,150,0.66) 49%, rgba(73,156,234,0.31) 100%);
+    background: -ms-linear-gradient(left, rgba(73,156,234,1) 0%, rgba(27,60,150,0.66) 49%, rgba(73,156,234,0.31) 100%);
+    background: linear-gradient(to right, rgba(73,156,234,1) 0%, rgba(27,60,150,0.66) 49%, rgba(73,156,234,0.31) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499cea', endColorstr='#499cea', GradientType=1 );
+}
+.nav-tabs-style a{
+    color: #FFFFFF;
 }
 .nav-tabs > li, .nav-pills > li {
 	float:none;
@@ -358,6 +369,23 @@ body {
     color: #9fd5f2;
     font-family: "booksb";
 }
+.bigbold-white {
+    font-size: 11.1vh;
+    color: #FFFFFF;
+    font-family: "booksb";
+}
+.txt-block {
+    color: #5890b7;
+    font-family: "booksb";
+}
+.txt-block-c{
+    color: #004c77;
+    font-family: "booksb";
+}
+.txt-block-d{
+    color: #333333;
+    font-family: "booksb";
+}
 .bg_imgr {
     background: url("../images/br_total.png");
     background-position: center center;
@@ -411,14 +439,17 @@ body {
     clear:both;
 }
 .lead-section {
-    min-height: 803px;
-    background: url("../images/123_04.png");
+    background: #707070;
+    min-height: 671px;
+    /*background: url("../images/123_04.png");*/
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
-
+}
+.v-space {
+    margin-bottom: 40px;
 }
 .section-one {
     min-height: 803px;
