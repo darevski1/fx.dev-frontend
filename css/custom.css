@@ -23,14 +23,8 @@ body {
 	margin-top: 60px;
     background: #444444;
 }
-.wraper {
-    /*width: 100%;*/
-    /*background: url("../images/123.png") no-repeat;*/
-    /*background-size: cover;*/
-    /*width: 100%;*/
-    /*padding-bottom: 10px;*/
-    /*padding-top: 200px;*/
-    /*margin-top: 340px;*/
+.mag-btn {
+    padding-top: 80px;
 }
 .red {
     border: 1px solid red;
@@ -64,19 +58,11 @@ body {
 	border-width: 0 0 10px 0;
 	border-image: url('../images/hr-menu-line.png') 25 30 10 20 repeat stretch;
 }
-.example-three {
-	border-style: double;
-	border-image: url('../images/hr-menu-line.png') 25 30 10 20 stretch;
-}
+
 .nav-tabs-style {
-    background: rgba(73,156,234,1);
-    background: -moz-linear-gradient(left, rgba(73,156,234,1) 0%, rgba(27,60,150,0.66) 49%, rgba(73,156,234,0.31) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,156,234,1)), color-stop(49%, rgba(27,60,150,0.66)), color-stop(100%, rgba(73,156,234,0.31)));
-    background: -webkit-linear-gradient(left, rgba(73,156,234,1) 0%, rgba(27,60,150,0.66) 49%, rgba(73,156,234,0.31) 100%);
-    background: -o-linear-gradient(left, rgba(73,156,234,1) 0%, rgba(27,60,150,0.66) 49%, rgba(73,156,234,0.31) 100%);
-    background: -ms-linear-gradient(left, rgba(73,156,234,1) 0%, rgba(27,60,150,0.66) 49%, rgba(73,156,234,0.31) 100%);
-    background: linear-gradient(to right, rgba(73,156,234,1) 0%, rgba(27,60,150,0.66) 49%, rgba(73,156,234,0.31) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499cea', endColorstr='#499cea', GradientType=1 );
+    background: url('../images/menu.png');
+    background-repeat: no-repeat;
+    height: 37px;
 }
 .nav-tabs-style a{
     color: #FFFFFF;
@@ -85,11 +71,12 @@ body {
 	float:none;
 	display:inline-block;
 	*display:inline; /* ie7 fix */
-	zoom:1; /* hasLayout ie7 trigger */
 }
 
 .bottomImage { position: absolute; bottom: 0; }
-
+.baker {
+    margin-top: 120px;
+}
 
 /* Baklava*/
 .jumbotron-link::before {
@@ -194,6 +181,24 @@ body {
 .txt_header {
     color: #9fd5f2;
 }
+.txt_header-cs {
+    color: #004B76;
+    font-family: "booksb";
+    font-size: 8vh;
+}
+.baker_main-section {
+    margin-top: -20px;;
+}
+.baker-devider-2 {
+    margin-top: 230px;
+}
+.baker_lead-section {
+    padding-top: 230px; ;
+}
+.baker_lead-section_2 {
+    margin-top: -10px;
+    position:relative;
+}
 .bottomImage {
 	position: absolute;
 	bottom: 0;
@@ -264,7 +269,7 @@ body {
     width: 100%;
 }
 .txt_header {
-    font-size: 6.1vh;
+    font-size: 4.1vh;
     color: #9fd5f2;
     font-family: "booksb";
 }
@@ -281,7 +286,7 @@ body {
     font-family: "booksb";
 }
 .txt_header_ws {
-    font-size: 11.1vh;
+    font-size: 7.1vh;
     color: #ffffff;
     font-family: "booksb";
 }
@@ -353,6 +358,9 @@ body {
 }
 .cnc_space {
     padding-bottom: 10px;
+}
+.csspaer {
+    margin-top: 430px;
 }
 .txt_header_1 {
     background-color: rgba(0, 191, 255, 0.2);
@@ -433,32 +441,70 @@ body {
 }
 .bott_space {
     margin-bottom: 25px;
-
 }
 .clear{
     clear:both;
 }
+.devider-2 {
+    min-height: 581px;
+    background: url("../images/devider.png");
+    background-size: cover;
+    background-position: center bottom ;
+    background-repeat: no-repeat;
+    display: block;
+    margin-bottom: 0;
+}
+.devider-3 {
+    min-height: 504px;
+    background: url("../images/devider-3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+}
+.devider-4 {
+    background: #707070;
+    min-height: 543px;
+    background: url("../images/devider-6.png");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
 .lead-section {
     background: #707070;
-    min-height: 671px;
-    /*background: url("../images/123_04.png");*/
+    min-height: 427px;
+    background: url("../images/devider-2.png");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    position: relative;
     width: 100%;
 }
 .v-space {
     margin-bottom: 40px;
 }
 .section-one {
-    min-height: 803px;
+    background: #707070;
+    min-height: 464px;
+    background: url("../images/devider_4.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
 }
 .section-two {
-    min-height: 803px;
+    background: #707070;
+    min-height: 587px;
+    background: url("../images/devider-5.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
 }
 .section-three {
-    min-height: 803px
+    background: #707070;
+    min-height: 863px;
+    background: url("../images/devider-7.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
 }
 .section-four {
     min-height: 803px
@@ -470,7 +516,7 @@ body {
     min-height: 803px
 }
 .block-image {
-    margin-top: -45px;
+    top: -50%;
     width: 100%;
     margin-left: auto ;
     margin-right: auto ;
@@ -563,8 +609,19 @@ form {
 }
 
 .innershadow {
-    -moz-box-shadow: inset 0 0 5px 5px #c5c5c5;
-    -webkit-box-shadow: inset 0 0 5px 5px #c5c5c5;
-    box-shadow: inset 0 0 5px 5px #c5c5c5;
+     -moz-box-shadow: inset 0 0 5px 5px #c5c5c5;
+     -webkit-box-shadow: inset 0 0 5px 5px #c5c5c5;
+     box-shadow: inset 0 0 5px 5px #c5c5c5;
+     border: 1px solid #767574;
+ }
+.innershadow:focus {
+    -moz-box-shadow: inset 0 0 4px 4px #c5c5c5;
+    -webkit-box-shadow: inset 0 0 4px 4px #c5c5c5;
+    box-shadow: inset 0 0 4px 4px #c5c5c5;
     border: 1px solid #767574;
+}
+
+.nospace {
+    margin: 0px;
+    padding: 0px;
 }

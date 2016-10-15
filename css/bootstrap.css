@@ -4028,12 +4028,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a > img {
   max-width: none;
 }
-.nav-tabs {
-
-}
 .nav-tabs-style {
-  background: url("../images/menu.png") no-repeat;
-
+  background: url('../images/menu.png');
+  background-repeat: no-repeat;
+}
+.nav-tabs-style a{
+  color: #FFFFFF;
 }
 .nav-tabs > li {
   float: left;
@@ -4053,7 +4053,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:focus {
   color: #555555;
   background-color: #122b40;
-  border: 1px solid #dddddd;
   border-bottom-color: transparent;
   cursor: default;
 }
