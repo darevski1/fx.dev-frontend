@@ -4971,8 +4971,8 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 }
 
 .navbar-inverse {
-    background-color: #222;
-    border-color: #080808
+    /*background-color: #222;*/
+    /*border-color: #080808*/
 }
 
 .navbar-inverse .navbar-brand {
@@ -5024,7 +5024,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #080808;
+    /*background-color: #080808;*/
     color: #fff
 }
 
@@ -6277,6 +6277,9 @@ button.close {
     z-index: 1050;
     -webkit-overflow-scrolling: touch;
     outline: 0
+border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
 }
 
 .modal.fade .modal-dialog {
