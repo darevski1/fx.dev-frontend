@@ -74,7 +74,10 @@ body {
 	border-width: 0 0 10px 0;
 	border-image: url('../images/hr-menu-line.png') 25 30 10 20 repeat stretch;
 }
-
+.example-three {
+    padding-top: 15%;
+    position: relative;
+}
 .nav-tabs-style {
     background: url('../images/menu.png');
     background-repeat: no-repeat;
@@ -471,8 +474,26 @@ body {
     clear:both;
 }
 .devider-6 {
-    min-height: 591px;
+    min-height: 631px;
     background: url("../images/devider-6_02.png");
+    background-size: cover;
+    background-position: center top ;
+    background-repeat: no-repeat;
+    display: block;
+    margin-bottom: 0;
+}
+.devider-7 {
+    min-height: 631px;
+    background: url("../images/devider-7_02.png");
+    background-size: cover;
+    background-position: center top ;
+    background-repeat: no-repeat;
+    display: block;
+    margin-bottom: 0;
+}
+.devider-8 {
+    min-height: 499px;
+    background: url("../images/devider-8_02.png");
     background-size: cover;
     background-position: center top ;
     background-repeat: no-repeat;
@@ -603,7 +624,12 @@ body {
     min-height: 803px;
 }
 .section-eight {
-    min-height: 803px;
+    min-height: 505px;
+    background: #000000;
+    background: url("../images/slices_02.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
 }
 .section-ten {
     height: 900px;
