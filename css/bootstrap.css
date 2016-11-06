@@ -5894,6 +5894,10 @@ button.close {
   z-index: 1050;
   -webkit-overflow-scrolling: touch;
   outline: 0;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+
 }
 .modal.fade .modal-dialog {
   -webkit-transform: translate(0, -25%);
@@ -5922,14 +5926,14 @@ button.close {
 .modal-content {
   position: relative;
   background-color: #ffffff;
-  border: 1px solid #999999;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+
   border-radius: 6px;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   outline: 0;
+
 }
 .modal-backdrop {
   position: fixed;
@@ -5949,8 +5953,18 @@ button.close {
   filter: alpha(opacity=50);
 }
 .modal-header {
-  padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
+  padding: 5px;
+  background: rgba(7,78,119,1);
+  background: -moz-linear-gradient(left, rgba(7,78,119,1) 0%, rgba(85,138,176,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(7,78,119,1)), color-stop(100%, rgba(85,138,176,1)));
+  background: -webkit-linear-gradient(left, rgba(7,78,119,1) 0%, rgba(85,138,176,1) 100%);
+  background: -o-linear-gradient(left, rgba(7,78,119,1) 0%, rgba(85,138,176,1) 100%);
+  background: -ms-linear-gradient(left, rgba(7,78,119,1) 0%, rgba(85,138,176,1) 100%);
+  background: linear-gradient(to right, rgba(7,78,119,1) 0%, rgba(85,138,176,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#074e77', endColorstr='#558ab0', GradientType=1 );
+  border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
 }
 .modal-header .close {
   margin-top: -2px;
@@ -5962,11 +5976,16 @@ button.close {
 .modal-body {
   position: relative;
   padding: 15px;
+  background: #323232;
+
 }
 .modal-footer {
   padding: 15px;
   text-align: right;
-  border-top: 1px solid #e5e5e5;
+  background:#323232;
+  border-radius: 0px 0px 5px 5px;
+  -moz-border-radius: 0px 0px 5px 5px;
+  -webkit-border-radius: 0px 0px 5px 5px;
 }
 .modal-footer .btn + .btn {
   margin-left: 5px;
