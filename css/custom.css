@@ -532,7 +532,6 @@ body {
     margin: 0px auto;
 }
 .secop-1 {
-    border: 1px solid red;
     min-height: 600px;
     position: relative;
 }
@@ -1372,8 +1371,6 @@ form {
 }
 
 .section-c234 {
-    border: 3px solid #D704E2;
-
     height: 450px;
 }
 
