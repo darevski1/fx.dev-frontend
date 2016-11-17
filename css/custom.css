@@ -28,8 +28,19 @@
 
 }
 
-.land-section {
-    height: 700px;
+
+.image
+{
+    background-image : url(image.png);
+    /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+    background-repeat : no-repeat;
+    position : absolute ;
+    left : 63px;
+    top : -12px;
+    width : 618px;
+    height : 413px;
+}
+
 
 }
 
@@ -354,7 +365,7 @@ body {
 
 }
 .txt_header-c1 {
-    font-size: 2.5vw;
+    font-size: 20px;
     color: #9fd5f2;
     font-family: "booksb";
 
@@ -562,7 +573,7 @@ body {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-
+    top: 20%;
     width: 100%;
 }
 .bott_space {
@@ -786,7 +797,8 @@ body {
     background-repeat: no-repeat;
 }
 .section-ten {
-    height: 700px;
+
+    min-height: 700px;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#333333+0,393939+100 */
     background: #333333; /* Old browsers */
     background: -moz-linear-gradient(top,  #333333 0%, #393939 100%); /* FF3.6-15 */
@@ -1424,7 +1436,7 @@ input[type=email],
 input[type=url],
 input[type=password],
 textarea {
-    width: 100%;
+    width: 70%;
 }
 input[type=text],
 input[type=email],
@@ -1462,7 +1474,7 @@ textarea:focus {
     input[type=password],
     textarea,
     select {
-        width: 100%;
+        width:70%;
     }
 }
 @media (min-width: 1200px) {
@@ -1490,4 +1502,137 @@ textarea:focus {
         color: #FFFFFF;
         background: #000;
     }
+}
+.bstop {
+    top: 100vw;
+    border:2px solid yellow;
+    position: relative;
+}
+.bscpcor {
+    position: relative;
+    border: 2px solid green;
+    top: 85vw;
+}
+.bsins {
+    position: relative;
+    border: 2px solid red;
+    top: 135vw;
+}
+
+@media screen and (max-width: 500px) {
+    .bsins {
+        position: relative;
+        border: 2px solid red;
+        top: 490vw;
+    }
+    .bscpcor {
+        position: relative;
+        border: 2px solid green;
+        top: 300vw;
+    }
+    .bstop {
+        top: 290vw;
+        border:2px solid yellow;
+        position: relative;
+    }
+    .section-nine {
+        min-height: 4448px;
+        background: url("../images/cbsback_02.png");
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 100%
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .bsins {
+        position: relative;
+        border: 2px solid red;
+        top: 790vw;
+    }
+    .bscpcor {
+        position: relative;
+        border: 2px solid green;
+        top: 300vw;
+    }
+    .bstop {
+        top: 290vw;
+        border:2px solid yellow;
+        position: relative;
+    }
+    .section-nine {
+        min-height: 4448px;
+        background: url("../images/cbsback_02.png");
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 100%
+    }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1920px) {
+    .bsins {
+        position: relative;
+        border: 2px solid red;
+         bottom: 0vw;
+        padding-top: 40vw;
+    }
+    .bscpcor {
+        position: relative;
+        border: 2px solid green;
+        top: 100vw;
+    }
+    .bstop {
+        top: 100vw;
+        border:2px solid yellow;
+        position: relative;
+    }
+    .section-nine {
+        min-height: 6448px;
+        background: url("../images/cbsback_02.png");
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 100%
+    }
+}
+.newbg {
+    background: #3C3C3D;
+    height: auto;
+    padding: 5px;
+}
+.section-c22 {
+    background: url("../images/gms-image.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: relative;
+    height:1200px;
+
+}
+.flex-center-vertically-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 1200px;
+    padding-top: 5px;
+}
+.section-le {
+    height: 300px;
+    background: #ffffff;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.section-le {
+    height: 300px;
+    background: #ffffff;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
 }
