@@ -367,7 +367,7 @@ body {
 }
 
 .txt_header-c {
-    font-size: 4.2vw;
+    font-size: 28px;
     color: #9fd5f2;
     font-family: "booksb";
 
@@ -488,8 +488,22 @@ body {
     color: #9fd5f2;
     font-family: "booksb";
 }
+
+@media screen and (min-width: 580px) {
+    .section-c22{
+        background: url("../images/gms-image.png");
+        background-size: cover;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        position: relative;
+        min-height:2388px;
+    }
+
+
+}
+
 .bigbold-white {
-    font-size: 6.9vw;
+    font-size: 39px;
     color: #FFFFFF;
     font-family: "booksb";
 }
@@ -514,19 +528,19 @@ body {
    min-height: 500px;
 }
 #bg {
-  position: fixed; 
-  top: -50%; 
-  left: -50%; 
-  width: 200%; 
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
   height: 200%;
 }
 #bg img {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
   min-width: 50%;
   min-height: 50%;
 }
@@ -564,7 +578,7 @@ body {
     top: 50%;
 }
 .secop {
-    margin-top: 20%;
+    margin-top: 10%;
     margin-bottom: 20%;
     min-height: 600px;
 }
@@ -728,7 +742,7 @@ body {
 .section-five {
     min-height: 1731px;
     background: #707070;
-    background: url("../images/big_02.png");
+    background: url("../images/section-5_06_02.png");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -760,10 +774,16 @@ body {
     background: linear-gradient(to bottom, rgba(49,49,49,1) 0%, rgba(49,49,49,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#313131', endColorstr='#313131', GradientType=0 );
 }
+.section-four-1 {
+    min-height: 180px;
+    background: #242424;
+}
 .spacetop {
     margin-top: 25%;
 }
-
+.spacetop-sm {
+    padding-top: 30px;
+}
 .section-c4 {
     background: #dddddd;
 }
@@ -1584,7 +1604,7 @@ textarea:focus {
         height:50%;
         width:100%;
         position:absolute;
-        top:75%;
+        top:70%;
         left:50%;
         padding: 10px;
 
@@ -1599,7 +1619,7 @@ textarea:focus {
         width:70%;
         position:absolute;
         padding: 10px;
-        top:65%;
+        top:60%;
         left:50%;
         -webkit-transform:translateY(-50%) translateX(-50%);
     }
@@ -1612,7 +1632,7 @@ textarea:focus {
         width:70%;
         padding: 30px;
         position:absolute;
-        top:65%;
+        top:60%;
         left:50%;
         -webkit-transform:translateY(-50%) translateX(-50%);
     }
@@ -1624,7 +1644,7 @@ textarea:focus {
         width:70%;
         padding: 30px;
         position:absolute;
-        top:82%;
+        top:65%;
         left:40%;
         -webkit-transform:translateY(-50%) translateX(-50%);
     }
@@ -1687,14 +1707,32 @@ textarea:focus {
     height: auto;
     padding: 5px;
 }
+.pfontsize {
+    font-size: 3vmin;
+}
+.txt_sm_color {
+    color: #9FD5F2;
+    font-size: 3vmin;
+}
+@media screen and (min-width: 580px) {
+    .section-c22{
+        background: url("../images/gms-image.png");
+        background-size: cover;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        position: relative;
+        min-height:2388px;
+    }
+
+
+}
 .section-c22{
     background: url("../images/gms-image.png");
     background-size: cover;
-    background-position: center top;
+    background-position: center bottom;
     background-repeat: no-repeat;
     position: relative;
-    height:1288px;
-
+    min-height:1388px;
 }
 .flex-center-vertically-1 {
     display: flex;
@@ -1718,4 +1756,211 @@ textarea:focus {
     padding: 0;
     margin: 0;
     position: relative;
+}
+.c-11 {
+    background: url("../images/bgimage.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 820px;
+}
+
+.section-c23 {
+    background: url("../images/gms-image-1.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 1337px;
+}
+.section-c25 {
+    background: url("../images/gms-image-2.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 801px;
+}
+.section-c26 {
+    background: url("../images/gms-image-3.png");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 864px;
+}
+.bhimage {
+    background: ;
+}
+.section-c27 {
+
+    background: url("../images/gms-image-4.png");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    position: relative;
+   min-height: 835px;
+}
+
+.sdc {
+    background: rgba(189,203,212,1);
+    background: -moz-linear-gradient(top, rgba(189,203,212,1) 0%, rgba(218,226,230,0.41) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(189,203,212,1)), color-stop(100%, rgba(218,226,230,0.41)));
+    background: -webkit-linear-gradient(top, rgba(189,203,212,1) 0%, rgba(218,226,230,0.41) 100%);
+    background: -o-linear-gradient(top, rgba(189,203,212,1) 0%, rgba(218,226,230,0.41) 100%);
+    background: -ms-linear-gradient(top, rgba(189,203,212,1) 0%, rgba(218,226,230,0.41) 100%);
+    background: linear-gradient(to bottom, rgba(189,203,212,1) 0%, rgba(218,226,230,0.41) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bdcbd4', endColorstr='#dae2e6', GradientType=0 );
+}
+.absolute-positioned-div-1 {
+    /*padding-top: 30%;*/
+}
+@media screen and (max-width: 500px) {
+
+    .absolute-positioned-div-1{
+        height:50%;
+        width:100%;
+        position:absolute;
+        top:40%;
+        left:20%;
+        padding: 10px;
+
+        -webkit-transform:translateY(-50%) translateX(-50%);
+    }
+}
+@media screen and (max-width: 980px) {
+
+    .absolute-positioned-div-1{
+        height:50%;
+        width:100%;
+        position:absolute;
+        top:30%;
+        left:50%;
+        padding: 10px;
+
+        -webkit-transform:translateY(-50%) translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .absolute-positioned-div-1{
+        height:50%;
+        width:70%;
+        position:absolute;
+        padding: 10px;
+        top:50%;
+        left:50%;
+        -webkit-transform:translateY(-50%) translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 1560px) {
+
+    .absolute-positioned-div-1{
+        height:50%;
+        width:70%;
+        padding: 30px;
+        position:absolute;
+        top:50%;
+        left:50%;
+        -webkit-transform:translateY(-50%) translateX(-50%);
+    }
+}
+@media screen and (max-width: 1920px) {
+
+    .absolute-positioned-div-1{
+        height:50%;
+        width:70%;
+        padding: 30px;
+        position:absolute;
+        top:65%;
+        left:40%;
+        -webkit-transform:translateY(-50%) translateX(-50%);
+    }
+}
+@media screen and (max-width: 500px) {
+
+    .absolute-positioned-div-2{
+ 
+        position:absolute;
+        top:18%;
+        left:5%;
+        padding: 30px;
+    }
+    .txt_header-c {
+        font-size: 3.5vw;
+    }
+    .txt_header-c1 {
+        font-size: 3.5vw;
+    }
+    .bigbold-white {
+        font-size: 25px;
+        color: #FFFFFF;
+        font-family: "booksb";
+    }
+}
+@media screen and (max-width: 980px) {
+
+    .absolute-positioned-div-2{
+
+        position:absolute;
+        top:38%;
+        left:5%;
+        padding: 30px;
+    }
+    .txt_header-c {
+        font-size: 4.5vw;
+    }
+    .txt_header-c1 {
+        font-size: 4vw;
+    }
+    .bigbold-white {
+        font-size: 45px;
+        color: #FFFFFF;
+        font-family: "booksb";
+    }
+}
+@media screen and (max-width:1200px) {
+
+    .absolute-positioned-div-2{
+
+        position:absolute;
+        top:38%;
+        left:5%;
+        padding: 30px;
+    }
+    .txt_header-c {
+        font-size: 3.5vw;
+    }
+    .txt_header-c1 {
+        font-size:3vw;
+    }
+    .bigbold-white {
+        font-size: 45px;
+        color: #FFFFFF;
+        font-family: "booksb";
+    }
+}
+@media screen and (max-width:1920px) {
+
+    .absolute-positioned-div-2{
+
+        position:absolute;
+        top:38%;
+        left:5%;
+        padding: 30px;
+    }
+    .txt_header-c {
+        font-size: 3vw;
+    }
+    .txt_header-c1 {
+        font-size:3vw;
+    }
+    .bigbold-white {
+        font-size: 4.5vw;
+        color: #FFFFFF;
+        font-family: "booksb";
+    }
 }
